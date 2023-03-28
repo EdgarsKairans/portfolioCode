@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.464fa911.css",
+    "main.js": "/static/js/main.249aff96.js",
+    "static/media/astronaut.png": "/static/media/astronaut.d9a1f60d4e7df26ac36a.png",
+    "static/media/galaxy.png": "/static/media/galaxy.faef7e908ebeb1321bda.png",
+    "static/media/error.gif": "/static/media/error.42292aa12b6bc303ce99.gif",
+    "index.html": "/index.html",
+    "main.464fa911.css.map": "/static/css/main.464fa911.css.map",
+    "main.249aff96.js.map": "/static/js/main.249aff96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464fa911.css",
+    "static/js/main.249aff96.js"
+  ]
+}

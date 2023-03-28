@@ -1,0 +1,60 @@
+.header {
+    &__box {
+
+        padding-top: 200px;
+    }
+    &__main{
+        min-height: 500px;
+        //max-height: 800px;
+        position: relative;
+        //padding-top: 200px;
+
+        &-welcome {
+
+            width: 186px;
+            height: 38px;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 38px;
+            letter-spacing: 0.36em;
+            text-transform: uppercase;
+            color: $text-color;
+        }
+
+        &-name {
+            font-weight: 600;
+            font-size: 67px;
+            line-height: 101px;
+            max-width: 400px;
+        }
+
+        &-profession {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.015em;
+            text-transform: uppercase;
+            padding-top: 30px;
+        }
+    }
+    &__photo {
+        position: relative;
+        right: 5%;
+        min-width: 60%;
+
+        img{
+            position: absolute;
+            
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            max-width: 600px;
+            max-height: 500px;
+            margin-right: 10%;
+        }
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+}

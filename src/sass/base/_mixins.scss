@@ -1,0 +1,15 @@
+@mixin btn {
+    min-height: 30px;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(240, 217, 188);
+    text-decoration: none;
+    &:hover {
+        scale: 1.2;
+        text-decoration: none;
+        color: black;
+    }
+}

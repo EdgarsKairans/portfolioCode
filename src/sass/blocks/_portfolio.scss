@@ -1,0 +1,60 @@
+.portfolio {
+
+    &__title {
+        font-weight: 600;
+        font-size: 57px;
+        line-height: 85px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+    }
+
+    &__work {
+
+        &-item {
+            padding-top: 120px;
+            display: flex;
+        }
+
+        &-text {
+            padding-left: 80px;
+            position: relative;
+        }
+
+        &-title {
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 44px;
+            letter-spacing: 0.05em;
+        }
+
+        &-about {
+            padding-top: 10px;
+
+            span {
+                color: aquamarine;
+                font-weight: 700;
+            }
+        }
+
+        &-links {
+            color: aqua;
+            margin-top: 0px;
+            display: flex;
+            max-width: 200px;
+            justify-content: space-between;
+            padding-top: 40px;
+
+
+        }
+
+        &-link {
+            @include btn;
+
+
+        }
+
+        &-code {
+            @include btn;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.about {
+    padding-top: 150px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__foto {
+
+        img{
+            max-width: 600px;
+            max-width: 600px;
+        }
+    }
+
+    &__main {
+        max-width: 520px;
+
+        &-title {
+            font-weight: 600;
+            font-size: 74px;
+            line-height: 141px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0.05em;
+
+        }
+    }
+}

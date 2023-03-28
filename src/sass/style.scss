@@ -1,0 +1,36 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $main-background;
+    color: $text-color;
+    scroll-behavior: smooth;
+}
+
+
+
+@import 'blocks/nav';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/contact';
+@import 'blocks/contact-animation';
+@import 'blocks/media';
+

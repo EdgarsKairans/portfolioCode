@@ -1,0 +1,102 @@
+.skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &-title {
+        font-weight: 600;
+        font-size: 57px;
+        line-height: 85px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+    }
+
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    &__category {
+        padding-top: 50px;
+
+        &-studies {
+            width: 350px;
+
+            &-item {
+                padding-top: 30px;
+                display: flex;
+            }
+
+            &-studyAbout {
+                padding-top: 15px;
+            }
+        }
+
+        &-study{
+            &-text {
+                font-size: 17px;
+                padding-left: 30px;
+                padding-top: 5px;
+            }
+        }
+
+        &-title {
+            font-size: 42px;
+            line-height: 85px;
+            letter-spacing: 0.05em;
+            text-transform: capitalize;
+        }
+
+        &-item {
+            min-width: 350px;
+            position: relative;
+            &-name {
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 44px;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                padding-bottom: 20px;
+            }
+
+        }
+    }
+
+    &__withImg {
+        padding-top: 5 0px;
+        margin: 0 auto;
+        &-items {
+            padding-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            //justify-content: center;
+            gap: 80px;
+            //position: relative;
+            
+        }
+
+        &-item {
+            min-width: 100px;
+           // max-width: 420px;
+        }
+
+        &-img {
+            display: flex;
+            justify-content: center;
+                img {
+                    max-height: 100px;
+                    min-height: 100px;
+                }
+            }
+        
+
+        &-itemName {
+            
+            min-height: 50px;
+            //min-width: 160px;
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+    }
+}
